@@ -1,16 +1,14 @@
-.. rosicast documentation master file, created by
-   sphinx-quickstart on Thu Aug  4 23:33:56 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 ====================================
-Welcome to rosicast's documentation!
+Rosicast's documentation
 ====================================
+
+This site is inspired by the `ml-glossary. <https://ml-cheatsheet.readthedocs.io/en/latest/>`_ There could be the same contents at the begining.
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Contents:
+    :caption: Math
+    :maxdepth: 1
 
-
+    math_notation
 
 Indices and tables
 ==================
@@ -18,16 +16,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
-List test
-=========
-
-* This is a bulleted list.
-* It has two items, the second
-  item uses two lines.
-
-1. This is a numbered list.
-2. It has two items too.
-
-#. This is a numbered list.
-#. It has two items too.
