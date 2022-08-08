@@ -9,6 +9,9 @@ Definitions
 * NP-hard
 * i.i.d 
 * BFS (breadth-first search)
+
+put math notations between text :math:`Z_G` like this.
+
 Outline
 
 * Traditional methods
@@ -142,6 +145,7 @@ Approaches
 PageRank
 
 Web as a (directed) graph:
+
 * Nodes = web pages
 * Edges = hyperlinks
 
@@ -168,4 +172,47 @@ Motivation
     * Guilt-by-association: If I am connected to a node with label X, then I am likely to have label X as well.
 * Classification label of a node v in network may depend on: Feature of v, labels of the nodes in v's neighborhood, and features of the nodes in v's neighborhood
 
+Node classification applications
+
+* Document classification
+* part of speech tagging
+* link prediction
+* optical character recognition
+* image/3D data segmentation
+* Entity resolution in sensor networks
+* Spam and fraud detaction
+
+Collective classfication methods
+
+* Probabilistic Relational Classifier
+* Iterative classification
+* Correct and smooth
+
+Graph neural networks
+
+Deep graph Encoder
+
+Task on networks
+
+* Node classfication
+    * predict a type of a given node
+* Link prediction
+    * predict whether two nodes are linked
+* community detection
+    * identify densely linked clusters of nodes
+* Network similarity
+    * How similar are two (sub)networks
+
+Permutation invariance
+Permutation equivariance
+
+link: https://www.youtube.com/watch?v=w6Pw4MOzMuo
+
+Graph neural networks consist of multiple Permutation equivariant / invariant functions.
+
+Graph convolutional networks
+
+Idea
+    Node's neighborhood defines a computation graph
+    Learn how to propagate information across the graph to compute node features
 
