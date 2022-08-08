@@ -6,3 +6,4 @@ docs/*build/
 venv/
 .idea
 sphinxenv/
+.vscode
