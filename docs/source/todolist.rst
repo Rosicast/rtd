@@ -9,6 +9,8 @@ Definitions
 * NP-hard
 * i.i.d 
 * BFS (breadth-first search)
+  
+community detection is position-aware task
 
 put math notations between text :math:`Z_G` like this.
 
