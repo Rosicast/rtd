@@ -4,6 +4,11 @@
 Todolist
 ========
 
+Definitions
+
+* NP-hard
+* i.i.d 
+* BFS (breadth-first search)
 Outline
 
 * Traditional methods
@@ -92,7 +97,7 @@ Why?
 
 Different notation of Node similarity
 
-* Naive: similar if two nodes are connnected
+* Naive: similar if two nodes are connected
 * Neighborhood overlap
 * Random walk approaches
 
@@ -135,5 +140,32 @@ Approaches
 * Graph classification
 
 PageRank
+
+Web as a (directed) graph:
+* Nodes = web pages
+* Edges = hyperlinks
+
+Link analysis approaches
+
+* PageRank
+* Personalized PageRank (PPR)
+* Random Walk with Restarts
+
+Matrix Factorization and Node embeddings
+
+Message passing and Node classification
+
+Correlations exist in networks
+
+* Homophily
+* Influence
+
+Classification with network data
+
+Motivation
+
+* Similar nodes are typically close together or directly connected in the network
+    * Guilt-by-association: If I am connected to a node with label X, then I am likely to have label X as well.
+* Classification label of a node v in network may depend on: Feature of v, labels of the nodes in v's neighborhood, and features of the nodes in v's neighborhood
 
 
