@@ -17,6 +17,7 @@ put math notations between text :math:`Z_G` like this.
 Outline
 
 * Traditional methods
+* 
    * Graoglets
    * Graph Kernels
 * Methods for node embeddings

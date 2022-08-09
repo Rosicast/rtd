@@ -17,6 +17,12 @@ This site is inspired by the `ml-glossary <https://ml-cheatsheet.readthedocs.io/
     levels
 
 .. toctree::
+    :caption: Representation
+    :maxdepth: 1
+
+    representation
+
+.. toctree::
     :caption: TodoList
     :maxdepth: 1
 
