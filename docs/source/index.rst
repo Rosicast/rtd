@@ -17,16 +17,44 @@ This site is inspired by the `ml-glossary <https://ml-cheatsheet.readthedocs.io/
     levels
 
 .. toctree::
+    :caption: Models
+    :maxdepth: 1
+    :titlesonly:
+    :glob:
+
+    ipynbs/models/*
+
+.. toctree::
+    :caption: Datasets
+    :maxdepth: 1
+    :glob:
+
+    datasets
+    ipynbs/datasets/*
+
+.. toctree::
     :caption: Representation
     :maxdepth: 1
 
     representation
 
 .. toctree::
+    :caption: Dive
+    :maxdepth: 1
+    :glob:
+    
+    ipynbs/dive/*
+
+.. toctree::
     :caption: TodoList
     :maxdepth: 1
 
     todolist
+
+
+project guide
+
+`CS 224W Project (2021 Fall) Tutorials and Case Studies for Applying Graph ML to Real-World Problems <https://docs.google.com/document/d/e/2PACX-1vRMprg-Uz9oEnjXOJpRPJ5oyEXRnJAz9qVeEB04sucx2o2RtQ-HRfom6IWS5ONhfoly0TOmJM7BxIzJ/pub>`_
 
 Indices and tables
 ==================
