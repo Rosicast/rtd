@@ -46,11 +46,16 @@ This site is inspired by the `ml-glossary <https://ml-cheatsheet.readthedocs.io/
     ipynbs/dive/*
 
 .. toctree::
+    :caption: Resources
+    :maxdepth: 1
+
+    resources
+
+.. toctree::
     :caption: TodoList
     :maxdepth: 1
 
     todolist
-
 
 project guide
 
