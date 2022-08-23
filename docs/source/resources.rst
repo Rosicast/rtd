@@ -12,3 +12,6 @@ https://pytorch-geometric.readthedocs.io/en/latest/
 
 Networkx
 https://networkx.org/
+
+torch sparce
+https://github.com/rusty1s/pytorch_sparse
