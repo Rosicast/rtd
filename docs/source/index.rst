@@ -43,6 +43,13 @@ This site is inspired by the `ml-glossary <https://ml-cheatsheet.readthedocs.io/
     ipynbs/colabs/cs224w_2021_fall/*
 
 .. toctree::
+    :caption: PyTorch_Geometric
+    :maxdepth: 1
+    :glob:
+    
+    ipynbs/colabs/pytorch_geometric/*
+
+.. toctree::
     :caption: Representation
     :maxdepth: 1
 
