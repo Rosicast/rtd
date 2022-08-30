@@ -33,10 +33,7 @@ This site is inspired by the `ml-glossary <https://ml-cheatsheet.readthedocs.io/
     ipynbs/datasets/*
 
 .. toctree::
-    :name: Colabs
-
-.. toctree::
-    :caption: cs224w_2021_fall
+    :caption: CS224w_2021_fall
     :maxdepth: 1
     :glob:
     
