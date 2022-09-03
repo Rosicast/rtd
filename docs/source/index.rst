@@ -47,7 +47,7 @@ This site is inspired by the `ml-glossary <https://ml-cheatsheet.readthedocs.io/
     ipynbs/colabs/pytorch_geometric/*
 
 .. toctree::
-    :caption: Pyg_Tutorial_project
+    :caption: Pyg_Tutorial_Project
     :maxdepth: 1
     :glob:
     
