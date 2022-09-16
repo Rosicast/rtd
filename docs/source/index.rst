@@ -40,6 +40,13 @@ This site is inspired by the `ml-glossary <https://ml-cheatsheet.readthedocs.io/
     ipynbs/datasets/ogbn-proteins/*
 
 .. toctree::
+    :caption: ogbn-arxiv
+    :maxdepth: 1
+    :glob:
+
+    ipynbs/datasets/ogbn-arxiv/*
+
+.. toctree::
     :caption: CS224w_2021_fall
     :maxdepth: 1
     :glob:
